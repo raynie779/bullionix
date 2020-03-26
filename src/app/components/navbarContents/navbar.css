@@ -1,0 +1,135 @@
+.upperSpace {
+    background: linear-gradient(180.11deg, #FDB019 0.21%, #FDCB44 103.17%);
+    padding: 5px 5px;
+}
+
+.upperText {
+    background: #010D21;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navContent .navbar {
+    padding: 10px 55px;
+}
+
+.navContent .navbar-dark .navbar-toggler {
+    background: #010D21;
+}
+
+.navbar .main-logo {
+    width: 150px;
+    height: 35px;
+}
+
+.navbar .navbar-collapse {
+    justify-content: center;
+}
+
+.dropdown-menu .dropdown-item {
+    background: #ffffff;
+    text-decoration: none;
+    color: #010D21;
+    padding: 15px 70px 5px 30px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background: #8b8b8b;
+}
+
+.links .link {
+    font-style: normal;
+    font-weight: 500;
+    color: #283242;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.navbar .navBtn {
+    background: #023D9C;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 0.02em;
+}
+
+.navbar .navLogin{
+    font-weight: normal;
+    color: #283242;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.nav-linkLogin {
+    display: none;
+}
+
+@media screen and (max-width: 912px) {
+    .navContent .navbar {
+        padding: 10px 30px;
+    }
+
+    .links .link {
+        font-size: 0.9em;
+        margin-right: 17px;
+    }
+
+    .navbar .main-logo {
+        width: 120px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-login{
+        display: none;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+
+    .nav-item {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .login-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .navBtn {
+        margin-top: 15px;
+        width: 10rem;
+    }
+
+    .links .link {
+        font-size: 1em;
+        margin-right: 0px;
+    }
+
+    .nav-linkLogin {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 758px){
+    .navContent .navbar {
+        padding: 10px 45px;
+    }
+
+    .navbar .main-logo {
+        width: 170px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .navContent .navbar {
+        padding: 10px 25px;
+    }
+}
+
+

@@ -1,0 +1,75 @@
+.sectionOne{
+    margin-top: 20px;
+    padding-right: 85px;
+}
+
+.sectContent {
+    display: flex;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.content:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+
+.content:hover .numContent p{
+    border: 2px solid #3066BF;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #3066BF;
+}
+  
+.sectionText {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.numContent{
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #010D21;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.textContent h5{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #010D21;
+    margin-bottom: 15px;
+}
+
+.textContent p{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 20px;
+    color: #2F3949;
+}
+
+.sectionOne .sectionImage {
+    background-image: url(../../assets/img/phones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+}
+
+@media screen and (max-width: 991px) {
+    .sectionOne{
+        flex-direction: column-reverse;
+        padding-right: 0px;
+    }
+
+    .sectionText {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .sectionOne{
+        margin-bottom: -150px;
+    }
+}

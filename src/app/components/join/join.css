@@ -1,0 +1,154 @@
+.club-section {
+    background-image: url(../../assets/img/joinImage.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 111px 85px;
+    background-position: center;
+}
+
+.club-section h4{
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.club-section p{
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 35px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.club-section .search{
+    background: #152B47;
+    border-radius: 100px 100px 0px 100px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 12px 0px;
+    border: none;
+    width: 23rem;
+}
+
+.club-section .example .submit {
+    background: linear-gradient(189.42deg, #FDB019 0.21%, #FDCB44 103.17%);
+    border-radius: 0px 100px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 35px;
+    margin-left: -30px;
+    text-align: center;
+    color: #A8630F;
+}
+
+@media screen and (max-width: 883px){
+    .club-section {
+        padding: 65px 10px;
+    }
+
+    .club-section .search{
+        width: 20em;
+        font-size: 0.8em;
+    }
+
+    .club-section .example .submit{
+        padding: 7px 30px;
+    }
+
+    .club-section h4{
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .club-section p{
+        font-size: 0.9em;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 566px){
+    .club-section {
+        padding: 45px 10px;
+    }
+
+    .club-section .search{
+        padding: 9px 0px;
+        width: 18em;
+        font-size: 0.8em;
+    }
+
+    .club-section .example .submit{
+        padding: 4px 28px;
+    }
+
+    .club-section h4{
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+    .club-section p{
+        font-size: 0.8em;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 433px){
+    .club-section {
+        padding: 30px 10px;
+    }
+
+    .club-section .search{
+        padding: 5px 0px;
+        width: 15em;
+        font-size: 0.7em;
+    }
+
+    .club-section .example .submit{
+        padding: 4px 15px;
+        font-size: 0.6em;
+    }
+
+    .club-section h4{
+        font-size: 1em;
+        margin-bottom: 12px;
+    }
+
+    .club-section p{
+        font-size: 0.7em;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .club-section {
+        padding: 25px 5px;
+    }
+
+    .club-section .search{
+        padding: 4px 0px;
+        width: 15em;
+        font-size: 0.7em;
+    }
+
+    .club-section .example .submit{
+        padding: 3px 15px;
+        font-size: 0.6em;
+    }
+
+    .club-section h4{
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+
+    .club-section p{
+        font-size: 0.6em;
+        line-height: 12px;
+        margin-bottom: 8px;
+    }
+}

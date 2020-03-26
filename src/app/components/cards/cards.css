@@ -1,0 +1,37 @@
+.card {
+    background-image: url(../../assets/img/group.png);
+    background-repeat: no-repeat;
+    width: 21rem;
+    background-size: cover;
+}
+
+.card-text {
+    padding-top: 146px;
+    padding-left: 25px;
+}
+
+.card-text h5 {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
+
+.card-text p {
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1190px){
+    .card {
+        margin-right: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 751px){
+    .card {
+        margin-right: 0px;
+    }
+  }

@@ -1,0 +1,84 @@
+.bullionix {
+    background: #EAEEF3;
+    padding: 100px 85px;
+}
+
+.bullionix-set {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+
+.bullionix-contents {
+    margin-bottom: 35px;
+    padding: 20px 38px;
+}
+
+.bullionix-contents img{
+    width: 45px;
+    margin-bottom: 40px;
+}
+
+.bullionix-contents h5{
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #010D21;
+    margin-bottom: 20px;
+}
+
+.bullionix-contents p{
+    font-weight: 500;
+    line-height: 22px;
+    color: #2F3949;
+}
+
+.how-to-use h3{
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 77px;
+    margin-bottom: 32px;
+    color: #010D21;
+}
+
+.how-to-use p {
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 22px;
+    color: #2F3949;
+}
+
+@media screen and (max-width: 991px){
+    .bullionix {
+        padding: 70px 55px;
+    }
+
+    .how-to-use{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .how-to-use h3{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 613px){
+    .bullionix-set {
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+
+    .how-to-use h3{
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .bullionix {
+        padding: 70px 25px;
+    }
+
+    .how-to-use p {
+        font-size: 1em;
+    }
+}
+
